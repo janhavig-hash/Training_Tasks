@@ -38,7 +38,7 @@ def ingest_documents():
         embeddings=embeddings
     )
 
-    # ✅ Save embeddings to JSON
+    # Save embeddings to JSON
     with open(EXPORT_FILE, "w", encoding="utf-8") as f:
         json.dump(export_data, f, indent=2)
 
@@ -48,3 +48,4 @@ def ingest_documents():
 
 if __name__ == "__main__":
     ingest_documents()
+

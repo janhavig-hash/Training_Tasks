@@ -34,28 +34,3 @@ tax-assistant-ai/
 ├── requirements.txt    # Project Dependencies
 └── README.md           # Documentation
 
-## ⚙️ Installation & Setup
-
-**Prerequisites:**
-* Python 3.10+
-* [Ollama](https://ollama.com/) installed and running (`ollama pull mistral`)
-
-**1. Clone the Repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/tax-assistant-ai.git
-cd tax-assistant-ai
-
-**2. Create Virtual Environment**
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-
-**3. Install Dependencies**
-```bash
-pip install -r requirements.txt
-
-
-

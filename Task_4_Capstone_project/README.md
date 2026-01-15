@@ -44,13 +44,9 @@ tax-assistant-ai/
 
 ```
  ### 1) Clone the Repository
- Extract frames from your short raw video clips.
-
+ 
 ```bash
-python extract_frames.py \
-  --video_dir "/path/to/raw_videos" \
-  --output_dir "/path/to/dataset/train/images" \
-  --frame_rate 2
+https://github.com/janhavig-hash/Training_Tasks/tree/main/Task_4_Capstone_project
 
 ```
  ### 2) Create Virtual Environment

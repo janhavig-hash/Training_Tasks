@@ -19,7 +19,7 @@ A local, secure AI-powered assistant that analyzes Income Tax documents (Form 16
 * **PDF Processing:** PyPDF, LangChain Text Splitters
 * **Testing:** Pytest, Pytest-Cov
 
-* ## 📂 Project Structure
+ ## 📂 Project Structure
 ```text
 tax-assistant-ai/
 ├── app/
@@ -35,7 +35,7 @@ tax-assistant-ai/
 └── README.md           # Documentation
 
 ---
-
+```
 ## ⚙️ Installation & Setup
 **Prerequisites:**
 * Python 3.10+

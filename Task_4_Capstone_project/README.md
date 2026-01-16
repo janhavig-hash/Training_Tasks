@@ -58,16 +58,41 @@ python -m venv venv
 venv\Scripts\activate
 # Mac/Linux:
 source venv/bin/activate
-
 ```
 ---
 ## 3. Install Dependencies
 ```
-bash
 pip install -r requirements.txt
-
 ```
 ---
+
+---
+## Terminal 1: Start Backend API
+```
+uvicorn app.main:app --reload
+# API will start at [http://127.0.0.1:8000](http://127.0.0.1:8000)
+```
+---
+---
+## Terminal 2: Start Frontend UI
+```
+streamlit run frontend.py
+# UI will open at http://localhost:8501
+```
+---
+---
+## Terminal 2: Start Frontend UI
+```
+streamlit run frontend.py
+# UI will open at http://localhost:8501
+```
+---
+
+
+
+
+
+
 
 
 

@@ -36,21 +36,15 @@ tax-assistant-ai/
 └── README.md           # Documentation
 
 ---
-##⚙️ Installation & Setup
-```bash
+## ⚙️ Installation & Setup
+```
 Prerequisites:
-
 Python 3.10+
-
 Ollama installed and running (ollama pull mistral)
 
 ```
 ---
-## 1. Clone the Repository
-```bash
 
-```
----
 ## 2. Create Virtual Environment
 ```bash
 python -m venv venv
@@ -65,7 +59,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ---
-
 ---
 ## Terminal 1: Start Backend API
 ```
@@ -80,18 +73,6 @@ streamlit run frontend.py
 # UI will open at http://localhost:8501
 ```
 ---
----
-## Terminal 2: Start Frontend UI
-```
-streamlit run frontend.py
-# UI will open at http://localhost:8501
-```
----
-
-
-
-
-
 
 
 

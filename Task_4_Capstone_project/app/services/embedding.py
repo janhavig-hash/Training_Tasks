@@ -36,8 +36,7 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
             continue
 
         try:
-            # --- FIX: Add specific prefix for Documents ---
-            # This tells the model: "Store this as a retrieval target"
+            
             prompt_text = f"search_document: {clean_text}"
 
             response = ollama.embeddings(
@@ -82,8 +81,7 @@ def embed_query(text: str) -> list[float]:
         )
 
     try:
-        # --- FIX: Add specific prefix for Questions ---
-        # This tells the model: "Align this with the document vector space"
+
         prompt_text = f"search_query: {clean_text}"
 
         response = ollama.embeddings(
@@ -102,4 +100,5 @@ def embed_query(text: str) -> list[float]:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Query embedding failed: {str(e)}"
+
         )

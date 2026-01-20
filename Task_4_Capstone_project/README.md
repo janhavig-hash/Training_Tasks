@@ -1,4 +1,4 @@
-# 🤖 AI Tax Assistant (Secure Local RAG Pipeline)
+# 🤖 AI-Based Tax Assistant 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.128%2B-009688?logo=fastapi&logoColor=white)
@@ -50,7 +50,7 @@ tax-assistant-ai/
 └── README.md           # Documentation
 ---
 ```
-## 1.clone the reposistory 
+## 1.Clone the reposistory 
 
 ```
 (https://github.com/janhavig-hash/Training_Tasks/tree/main/Task_4_Capstone_project)
